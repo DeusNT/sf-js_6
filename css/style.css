@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Grenze&display=swap);
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #001f3f;
+    font-family: 'Grenze', serif;
+    font-weight: 100;
+    color: #7FDBFF;
+}
+
+.variants h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.variant {
+    margin-top: 20px;
+    width: 90px;
+    height: 50px;
+    background-color: #0074D9;
+    border-color: #7FDBFF;
+    font-family: 'Grenze', serif;
+    text-transform: capitalize;
+    color: #7FDBFF;
+    font-size: x-large;
+    margin-left: 15px;
+}
+
+.thanks {
+    display: none;
+}
+
+.results-link {
+    font-family: 'Grenze', serif;
+    font-size: x-large;
+    color: #7FDBFF;
+}
+
+.results {
+    padding: 20px;
+    width: 500px;
+    background-color: #000f2a;
+    border-radius: 10%;
+}
+
+.results h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: start;
+}
